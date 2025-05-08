@@ -1,25 +1,21 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import './style/style.css';
+import './all.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NewComp from './NewComp';
+import He from './header';
 
-function App() {
+function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header className='d-flex justify-content-between w-full align-items-center'>
+
       </header>
-    </div>
+      <He />
+
+    </>
   );
 }
-
-export default App;
+export default Home;
+// export default App;

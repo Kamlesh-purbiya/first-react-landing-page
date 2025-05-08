@@ -1,0 +1,19 @@
+.fl img{
+    width: 65%;
+}
+.fn{
+    height: 100px;
+}
+.srch input{
+    border: 0;
+    background-color: transparent;
+    width: 100px;
+}
+.srch select{
+    border: 0;
+    height: 50%;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-right: 1px solid black;
+    background-color: transparent;
+}
