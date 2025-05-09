@@ -5,14 +5,13 @@ import './all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NewComp from './NewComp';
 import He from './header';
+import Footer from './footer';
 
 function Home() {
   return (
     <>
-      <header className='d-flex justify-content-between w-full align-items-center'>
-
-      </header>
-      <He />
+      {/* <He /> */}
+      <Footer/>
 
     </>
   );
